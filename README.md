@@ -1,17 +1,17 @@
-# Назва проекту
+# Name of the project
 
-Короткий опис проекту.
+Brief description of the project.
 
-## Встановлення
+## Installation
 
-Інструкції для встановлення проекту.
+Instructions for installing the project.
 
 ```bash
-# Клонуйте репозиторій
+# Clone the repository
 git clone https://github.com/username/repository.git
 
-# Перейдіть до директорії проекту
+# Go to the project directory
 cd repository
 
-# Встановіть залежності
+# Install dependencies
 npm install
