@@ -1,0 +1,120 @@
+@media (max-width:1285px){
+    .Chat-Download {
+        padding: 0 10px;
+    }
+    .Chat-Download h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:1131px) {
+    .title-Chat {
+        margin-top: 4.3%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Chat-Download {
+       order: 1;
+       flex-wrap: wrap;
+       
+    }
+    .title-Chat img {
+        margin-bottom: 72px;
+    }
+    .Chat-Download h1 {
+        max-width: 330px;
+        margin: 0 auto 24px;
+        font-size: 48px;
+    }
+    .Chat-Download p {
+        max-width: 455px;
+        margin-bottom: 32px;
+        line-height: 26px;
+    }
+    .gelery-01 {
+        margin-bottom: 137px;
+    }
+    .info {
+        margin-top: 48px;
+        margin-bottom: 200px;
+        max-width: 573px;
+    }
+    .info-text {
+        font-size: 16px;
+        line-height: 162.5%;
+    }
+  footer {
+    margin-top: 0;
+    height: 428px;
+  }
+
+  .footer-download {
+    display: block;
+    width: 50%;
+    text-align:-webkit-center;
+  }
+  .footer-title {
+    margin-bottom: 32px;
+  }
+.footer-text {
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.img-02-vaficon {
+    top: -26%;
+}
+.footer-buttom {
+   display: block;
+   max-width: 135px;
+}
+
+}
+
+
+@media (max-width:1050px){
+    .gelery-foto {
+        max-width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .gelery-foto img {
+        max-width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:375px){
+    .gelery-foto {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gelery-foto img {
+        width: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    .Chat-img-ridth {
+        display: none;
+    }
+    .Chat-Download h1 {
+        font-size: 41px;
+    }
+    .info-title {
+        font-size: 32px;
+    }
+
+    .info {
+        padding: 0 20px;
+    }
+    .img-02-vaficon {
+        left: 44.5%;
+    }
+    .footer-title {
+        font-size: 27px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+     
+}
