@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(./reset.css);
+@import url(./media.css);
+
+[class*="__container"] {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip; /*Приховує елементи які не вмізтилися*/
+}
+
+.header-logo {
+  margin: 80px 0 111px;
+}
+
+.main {
+  flex: 1;
+}
+
+.title-Chat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Chat-Download {
+  text-align: center;
+  padding: 0 80px;
+}
+
+.Chat-Download h1 {
+  margin-bottom: 45px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 100%;
+  color: rgb(40, 40, 61);
+}
+
+.Chat-Download p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 144.4%;
+  margin-bottom: 1.09375vw;
+}
+
+.Chat-button-left {
+  margin-right: 7.79px;
+  padding: 16px 39px;
+  border: none;
+  border-radius: 29px;
+  color: white;
+  background-color: rgb(77, 150, 169);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 162.5%;
+}
+
+.Chat-button-left:hover {
+  background-color: rgb(113, 192, 212);
+}
+
+.Chat-button-left span {
+  color: rgb(143, 227, 249);
+}
+
+.Chat-button-ridth {
+  margin-left: 7.79px;
+  padding: 16px 29px;
+  border: none;
+  border-radius: 29px;
+  background-color: rgb(133, 95, 177);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 162.5%;
+  color: white;
+}
+
+.Chat-button-ridth:hover {
+  background-color: rgb(177, 139, 221);
+}
+
+.Chat-img-left {
+  margin-top: -49px;
+}
+
+.gelery-01 {
+  max-width: 56px;
+  height: 7.291667vw;
+  display: block;
+  margin: 191px auto 64px;
+}
+
+.gelery-span {
+  display: block;
+  line-height: 40px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  left: 24px;
+  position: relative;
+  padding: 10%;
+  font-weight: 900;
+}
+
+.gelery-foto {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info {
+  text-align: center;
+  max-width: 28.125vw;
+  margin: 80px auto 72px;
+}
+
+.info-Built {
+  margin-bottom: 16px;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 162.5%;
+  text-transform: uppercase;
+  color: rgb(77, 150, 169);
+}
+
+.info-title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 110%;
+  color: rgb(40, 40, 61);
+}
+
+.info-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144.5%;
+  color: rgb(135, 135, 157);
+}
+
+footer {
+  margin-top: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 310px;
+  background-image: url(/img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img-02-vaficon {
+  position: absolute;
+  left: 48.5%;
+  top:-36%;
+}
+.footer-download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+
+.footer-title {
+  max-width: 350px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 110%;
+}
+
+.footer-text {
+  max-width: 350px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144.5%;
+}
+
+.footer-buttom {
+  padding: 16px 29px;
+  border: none;
+  border-radius: 29px;
+  background-color: rgb(133, 95, 177);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 162.5%;
+}
+
+.footer-buttom:hover {
+  background-color: rgb(177, 139, 221);
+}
+.footer-buttom span {
+  color: rgb(217, 184, 255);
+}
